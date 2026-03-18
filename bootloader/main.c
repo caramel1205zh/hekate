@@ -1328,7 +1328,7 @@ static void _ipl_reload()
 static void _about()
 {
 	static const char credits[] =
-		"\nhekate   (c) 2018,      naehrwert, st4rk\n\n"
+		"\nHekate   (c) 2018,      naehrwert, st4rk\n\n"
 		"         (c) 2018-2026, CTCaer\n\n"
 		" ___________________________________________\n\n"
 		"Thanks to: %kderrek, nedwill, plutoo,\n"
@@ -1426,7 +1426,7 @@ ment_t ment_top[] = {
 	MDEF_END()
 };
 
-menu_t menu_top = { ment_top, "hekate v6.5.1", 0, 0 };
+menu_t menu_top = { ment_top, "Hekate v6.5.2", 0, 0 };
 
 extern void pivot_stack(u32 stack_top);
 
